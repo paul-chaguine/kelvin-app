@@ -2,5 +2,5 @@
   "image": "mcr.microsoft.com/devcontainers/universal:2",
   "features": {
   },
-  "postCreateCommand": "./.devcontainer/postCreateCommand.sh"
+  "postCreateCommand": "pip3 install kelvin-sdk"
 }
