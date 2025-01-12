@@ -3,4 +3,5 @@
   "features": {
   },
   "postCreateCommand": "pip3 install kelvin-sdk",
+  "postCreateCommand": "kelvin app create sample-app"
 }
