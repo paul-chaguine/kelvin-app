@@ -4,5 +4,5 @@
   },
   "features": {
   },
-  "postCreateCommand": "pip3 install kelvin-sdk&&kelvin app create sample-app"
+  "postCreateCommand": "pip3 install kelvin-sdk&&pip3 install kelvin-sdk[mlflow]&&kelvin app create sample-app"
 }
