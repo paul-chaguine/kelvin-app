@@ -1,8 +1,4 @@
 {
   "image": "mcr.microsoft.com/devcontainers/universal:2",
-  "remoteEnv": {
-  },
-  "features": {
-  },
   "postCreateCommand": "pip3 install kelvin-sdk&&pip3 install kelvin-sdk[mlflow]&&kelvin app create sample-app"
 }
